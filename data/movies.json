@@ -1,0 +1,73 @@
+[
+    {
+      "title": "The Last of Us",
+      "category": "TV Show",
+      "rating": 8.7,
+      "rank": 1,
+      "poster": "https://i.ibb.co.com/8nCGS8kK/The-Last-of-Us.jpg"
+    },
+    {
+      "title": "Thunderbolts",
+      "category": "Movie",
+      "rating": 7.7,
+      "rank": 2,
+      "poster": "https://i.ibb.co.com/3m0PgC5P/Thunderbolts.jpg"
+    },
+    {
+      "title": "Sinners",
+      "category": "Movie",
+      "rating": 8.1,
+      "rank": 3,
+      "poster": "https://i.ibb.co.com/gbPKb4FR/Sinners.jpg"
+    },
+    {
+      "title": "You",
+      "category": "TV Show",
+      "rating": 7.7,
+      "rank": 4,
+      "poster": "https://i.ibb.co.com/4ZcGwSry/You.jpg"
+    },
+    {
+      "title": "Andor",
+      "category": "TV Show",
+      "rating": 8.4,
+      "rank": 5,
+      "poster": "https://i.ibb.co.com/R47wnFJY/Andor.jpg"
+    },
+    {
+      "title": "Black Mirror",
+      "category": "TV Show",
+      "rating": 8.7,
+      "rank": 6,
+      "poster": "https://i.ibb.co.com/0yFLhQJ3/Black-Mirror.jpg"
+    },
+    {
+      "title": "Oppenheimer",
+      "category": "Movie",
+      "rating": 8.5,
+      "rank": 7,
+      "poster": "https://i.ibb.co.com/Z61QwFFG/Oppenheimer.jpg"
+    },
+    {
+      "title": "Stranger Things",
+      "category": "TV Show",
+      "rating": 8.7,
+      "rank": 8,
+      "poster": "https://i.ibb.co.com/203ZMQW8/Stranger-Things.jpg"
+    },
+    {
+      "title": "Avengers: Endgame",
+      "category": "Movie",
+      "rating": 8.4,
+      "rank": 9,
+      "poster": "https://i.ibb.co.com/2HqJ7q5/Avengers-Endgame.jpg"
+    },
+    {
+      "title": "Breaking Bad",
+      "category": "TV Show",
+      "rating": 9.5,
+      "rank": 10,
+      "poster": "https://i.ibb.co.com/hJ7t2vpR/Breaking-Bad.jpg"
+    }
+  ]
+  

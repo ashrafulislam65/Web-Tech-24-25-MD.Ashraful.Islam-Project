@@ -42,4 +42,35 @@
      margin-right: 60px;
      text-align: center;
  }
+ /* Top 10 Movies section */
+ #movie-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .movie-card {
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    color: white;
+    transition: transform 0.2s;
+  }
+  
+  .movie-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .movie-card .info {
+    padding: 10px;
+  }
+  
+  .movie-card:hover {
+    transform: scale(1.05);
+  }
+  
  
