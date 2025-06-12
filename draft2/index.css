@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* navigation */
+.nav-bar {
+  margin: 20px;
+  border-radius: 10px;
+  padding: 20px 60px 20px 60px;
+  text-align: center;
+  background-color: #93b873;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title1 {
+  text-align: center;
+}
+
+.title2 {
+  position: relative;
+}
+
+.btn-nav {
+  height: 30px;
+  background-color: #93b873;
+  cursor: pointer;
+}
+
+.btn-nav :hover {
+  background-color: white;
+}
+
+.btn-nav a {
+  color: black;
+}
+
+/* advanced search */
+.adv-search-box {
+  margin: 20px;
+  padding: 20px;
+  background-color: #93b873;
+  border-radius: 10px;
+  color: #000;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  overflow-x: auto;
+}
+
+#adv-search-form {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+#adv-search-form label {
+  display: none;
+}
+
+#adv-search-form select {
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: none;
+  min-width: 150px;
+  background-color: white;
+}
+
+#adv-search-form button {
+  padding: 10px 20px;
+  background-color: white;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#adv-search-form button:hover {
+  background-color: #e4f2d4;
+}
+
+/* main section */
+
+/* heading */
+.container {
+  margin: 50px;
+}
+
+.heading-container {
+  margin: 0px 50px 0px 50px;
+  text-align: center;
+}
+
+.heading {
+  font-size: 24pt;
+  font-weight: bold;
+}
+
+.sub-heading {
+  font-size: 14pt;
+}
+
+/* items display */
+.item-heading {
+  font-size: 16pt;
+  margin-bottom: 20px;
+}
+
+#top-ten-container,
+#movie-rec-container,
+#tvseries-rec-container,
+#adv-search-result-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+}
+
+.show-card {
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  color: white;
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+
+.show-card img {
+  width: 100%;
+  height: 25rem;
+  display: block;
+}
+
+.show-card .info {
+  padding: 20px;
+}
+
+.show-card:hover {
+  transform: scale(1.05);
+}
+
+.info-rating {
+  margin: 15px 0px 15px 0px;
+}
+
+.info-btn {
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* footer section */

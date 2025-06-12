@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie/Tv Show Database</title>
+    <!-- css -->
+    <link rel="stylesheet" href="./index.css" />
+    <!-- javaScript -->
+  </head>
+  <body>
+    <!-- navigation -->
+    <header class="header">
+      <nav class="nav-bar">
+        <div>
+          <img src="" alt="" />
+          <p class="title1">RevoTV <small class="title2">+</small></p>
+        </div>
+        <div>
+          <input type="search" placeholder="search RevoTV" name="" id="" />
+          <button class="btn-nav" onclick="return adv_search()">ASearch</button>
+          <button class="btn-nav">Actor Profile</button>
+          <button class="btn-nav"><a class="" href="">Watchlist</a></button>
+          <button class="btn-nav"><a href=""></a>Signin</button>
+        </div>
+      </nav>
+
+      <!-- advanced search -->
+      <section id="adv-search"></section>
+
+      <!-- advanced search results -->
+      <section id="adv-search-results" class="container">
+        <div id="adv-search-result-container"></div>
+      </section>
+    </header>
+    <!-- main section -->
+    <main>
+      <section class="container">
+        <div class="heading-container">
+          <p class="heading">
+            Your ultimate destination for discovering the world’s best movies
+            and TV series!
+          </p>
+          <p class="sub-heading">
+            Browse top-rated titles, explore by genre, and find your next
+            favorite watch with our smart filters. Whether you're into drama,
+            thrillers, sci-fi, or classics — there's something here for
+            everyone.
+          </p>
+        </div>
+      </section>
+
+      <!-- top ten -->
+      <section class="container">
+        <div class="item-heading">
+          <h1>Most Watched This Week</h1>
+        </div>
+        <div id="top-ten-container"></div>
+      </section>
+
+      <!-- movie rec -->
+      <section class="container">
+        <div class="item-heading">
+          <h1>Movie Recommendation</h1>
+        </div>
+        <div id="movie-rec-container"></div>
+      </section>
+
+      <!-- tv series rec -->
+      <section class="container">
+        <div class="item-heading">
+          <h1>Tv Series Recommendation</h1>
+        </div>
+        <div id="tvseries-rec-container"></div>
+      </section>
+    </main>
+
+    <!-- footer section -->
+    <footer></footer>
+
+    <!-- javaScript -->
+    <script src="./index.js"></script>
+  </body>
+</html>

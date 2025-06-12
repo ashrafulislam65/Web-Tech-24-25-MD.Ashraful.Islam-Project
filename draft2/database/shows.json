@@ -1,0 +1,112 @@
+[
+  {
+    "rank": 1,
+    "title": "The Last of Us",
+    "rating": 8.7,
+    "category": "Category: TV Series",
+    "genre": "Genre: Dystopian Sci-Fi | Survival | Zombie Horror | Action",
+    "runtime": "Runtime: 15 episodes",
+    "year": "Year: 2023-present",
+    "cast": "Cast: Bella Ramsey | Pedro Pascal | Gabriel Luna",
+    "poster": "https://i.ibb.co.com/8nCGS8kK/The-Last-of-Us.jpg"
+  },
+  {
+    "rank": 2,
+    "title": "Thunderbolts",
+    "rating": 7.7,
+    "category": "Category: Movie",
+    "genre": "Genre: Political Drama | Superhero | Action | Crime",
+    "runtime": "Runtime: 2h 7m",
+    "year": "Year: 2025",
+    "cast": "Cast: Florence Pugh | Sebastian Stan | Julia Louis-Dreyfus",
+    "poster": "https://i.ibb.co.com/3m0PgC5P/Thunderbolts.jpg"
+  },
+  {
+    "rank": 3,
+    "title": "Sinners",
+    "rating": 8.1,
+    "category": "Category: Movie",
+    "genre": "Genre: Period Drama | Supernatural Horror | Vampire Horror | Thriller",
+    "runtime": "Runtime: 2h 17m",
+    "year": "Year: 2025",
+    "cast": "Cast: Micheal B. Jordan | Miles Caton | Saul Williams",
+    "poster": "https://i.ibb.co.com/gbPKb4FR/Sinners.jpg"
+  },
+  {
+    "rank": 4,
+    "title": "You",
+    "rating": 7.7,
+    "category": "Category: TV Series",
+    "genre": "Genre: Dark Romance",
+    "runtime": "Runtime: 50 episodes",
+    "year": "Year: 2018-2025",
+    "cast": "Cast: Penn Badgley | Victoria Pedretti | Charlotte Ritchie",
+    "poster": "https://i.ibb.co.com/4ZcGwSry/You.jpg"
+  },
+  {
+    "rank": 5,
+    "title": "Andor",
+    "rating": 8.4,
+    "category": "Category: TV Series",
+    "genre": "Genre: Dark Fantasy | Dystopian Sci-Fi | Political Thriller | Spy",
+    "runtime": "Runtime: 24 episodes",
+    "year": "Year: 2022-2025",
+    "cast": "Cast: Diego Luna | Denise Gough | Kyle Soller",
+    "poster": "https://i.ibb.co.com/R47wnFJY/Andor.jpg"
+  },
+  {
+    "rank": 6,
+    "title": "Black Mirror",
+    "rating": 8.7,
+    "category": "Category: TV Series",
+    "genre": "Genre: Cyber Thriller | Dystopian Sci-Fi | Psycological Drama | Suspense Mystery",
+    "runtime": "Runtime: 33 episodes",
+    "year": "Year: 2011-present",
+    "cast": "Cast: Anjana Vasan | Cristin Milioti | Jimmi Simpson",
+    "poster": "https://i.ibb.co.com/0yFLhQJ3/Black-Mirror.jpg"
+  },
+  {
+    "rank": 7,
+    "title": "Oppenheimer",
+    "rating": 8.5,
+    "category": "Category: Movie",
+    "genre": "Genre: Docudrama | Historical Epic | Psychological Drama | Biography",
+    "runtime": "Runtime: 3h",
+    "year": "Year: 2023",
+    "cast": "Cast: Cillian Murphy | Emily Blunt | Matt Damon",
+    "poster": "https://i.ibb.co.com/Z61QwFFG/Oppenheimer.jpg"
+  },
+  {
+    "rank": 8,
+    "title": "Stranger Things",
+    "rating": 8.7,
+    "category": "Category: TV Series",
+    "genre": "Genre: Dark Fantasy | Monster Horror | Sci-Fi Epic | Horror",
+    "runtime": "Runtime: 42 episodes",
+    "year": "Year: 2016-2025",
+    "cast": "Cast: Millie Bobby Brown | Finn Wolfhard | Winona Ryder",
+    "poster": "https://i.ibb.co.com/203ZMQW8/Stranger-Things.jpg"
+  },
+  {
+    "rank": 9,
+    "title": "Avengers: Endgame",
+    "rating": 8.4,
+    "category": "Category: Movie",
+    "genre": "Genre: Space Sci-Fi | Superhero | Action | Adventure",
+    "runtime": "Runtime: 3h 1m",
+    "year": "Year: 2019",
+    "cast": "Cast: Robert Downy Jr. | Chris Hemsworth Scarlett Johansson",
+    "poster": "https://i.ibb.co.com/2HqJ7q5/Avengers-Endgame.jpg"
+  },
+  {
+    "rank": 10,
+    "title": "Breaking Bad",
+    "rating": 9.5,
+    "category": "Category: TV Series",
+    "genre": "Genre: Drug Crime | Psychological Drama | Tragedy | Crime",
+    "runtime": "Runtime: 62 episodes",
+    "year": "Year: 2008-2013",
+    "cast": "Cast: Bryan Cranston | Aaron Paul | Anna Gunn",
+    "poster": "https://i.ibb.co.com/hJ7t2vpR/Breaking-Bad.jpg"
+  }
+]
