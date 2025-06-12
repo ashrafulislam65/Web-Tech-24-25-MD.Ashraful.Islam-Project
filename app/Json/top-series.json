@@ -1,0 +1,112 @@
+[
+  {
+    "rank": 1,
+    "title": "The Wire",
+    "category": "TV Series",
+    "rating": 9.3,
+    "genre": "Cop Drama | Drup Crime | Drama | Thriller",
+    "runtime": "60 episodes",
+    "year": "2002-2008",
+    "cast": "Dominic West | Lance Reddick | Sonja Sohn",
+    "poster": "https://upload.wikimedia.org/wikipedia/en/2/2d/The_Wire_-_Season_1.jpg"
+  },
+  {
+    "rank": 2,
+    "title": "Sherlock",
+    "category": "TV Series",
+    "rating": 9.0,
+    "genre": "Police Procedural | Crime | Drama | Mystery",
+    "runtime": "15 episodes",
+    "year": "2010-2017",
+    "cast": "Benedict Cumberbatch | Martin Freeman | Una Stubbs",
+    "poster": "https://m.media-amazon.com/images/M/MV5BNTQzNGZjNDEtOTMwYi00MzFjLWE2ZTYtYzYxYzMwMjZkZDc5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "rank": 3,
+    "title": "The Office",
+    "category": "TV Series",
+    "rating": 9.0,
+    "genre": "Mockumentary | Sitcom | Comedy",
+    "runtime": "188 episodes",
+    "year": "2005-2013",
+    "cast": "Steve Carell | Ricky Fischer | John Krasinski",
+    "poster": "https://m.media-amazon.com/images/M/MV5BZjQwYzBlYzUtZjhhOS00ZDQ0LWE0NzAtYTk4MjgzZTNkZWEzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "rank": 4,
+    "title": "The Pitt",
+    "category": "TV Series",
+    "rating": 8.9,
+    "genre": "Medical Drama | Drama",
+    "runtime": "16 episodes",
+    "year": "2025-present",
+    "cast": "Noah Wyle | Tracy Ofeachor | Patrick Ball",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMTU3MDliMGEtMDQxNi00OTk1LTg1NWMtZDM2NmEwZDA1ZDk2XkEyXkFqcGc@._V1_.jpg"
+  },
+  {
+    "rank": 5,
+    "title": "Friends",
+    "category": "TV Show",
+    "rating": 8.9,
+    "genre": "Sitcom | Comedy | Romance | Parody",
+    "runtime": "235 episodes",
+    "year": "1994-2004",
+    "cast": "Jennifer Aniston | Courteney Cox | Lisa Kudrow",
+    "poster": "https://m.media-amazon.com/images/M/MV5BOTU2YmM5ZjctOGVlMC00YTczLTljM2MtYjhlNGI5YWMyZjFkXkEyXkFqcGc@._V1_.jpg"
+  },
+  {
+    "rank": 6,
+    "title": "Narcos",
+    "category": "TV Series",
+    "rating": 8.7,
+    "genre": "Documentary | Drup Crime | Crime | Drama",
+    "runtime": "30 episodes",
+    "year": "2015-2017",
+    "cast": "Pedro Pascal | Wagner Moura | Boyd Holbrook",
+    "poster": "https://m.media-amazon.com/images/M/MV5BNzQwOTcwMzIwN15BMl5BanBnXkFtZTgwMjYxMTA0NjE@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "rank": 7,
+    "title": "Peaky Blinders",
+    "category": "TV Series",
+    "rating": 8.7,
+    "genre": "Gangster | Period Drama | Crime | Drama",
+    "runtime": "36 episodes",
+    "year": "2013-2022",
+    "cast": "Cillian Murphy | Paul Anderson | Sophie Rundle",
+    "poster": "https://m.media-amazon.com/images/M/MV5BOGM0NGY3ZmItOGE2ZC00OWIxLTk0N2EtZWY4Yzg3ZDlhNGI3XkEyXkFqcGc@._V1_.jpg"
+  },
+  {
+    "rank": 8,
+    "title": "Dark",
+    "category": "TV Series",
+    "rating": 8.7,
+    "genre": "Psychological Thriller | Time Travel | Crime | Drama",
+    "runtime": "26 episodes",
+    "year": "2017-2020",
+    "cast": "Louis Hofmann | Karoline Eichhorn | Lisa Vicari",
+    "poster": "https://upload.wikimedia.org/wikipedia/en/d/da/DarkNetflixPosterEnglish.jpg"
+  },
+  {
+    "rank": 9,
+    "title": "House",
+    "category": "TV Series",
+    "rating": 8.7,
+    "genre": "Medocal Drama | Drama | Mystery",
+    "runtime": "176 episodes",
+    "year": "2004-2012",
+    "cast": "Hugh Laurie | Omar Epps | Robert Sean Leonard",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMjgxYjAwNmMtYTAwZC00YmQxLWJlOTMtMWM0NGJmNDE0YmI2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "rank": 10,
+    "title": "The Boys",
+    "category": "TV Series",
+    "rating": 8.6,
+    "genre": "Dark Comedy | Satire | Superhero | Action",
+    "runtime": "40 episodes",
+    "year": "2019-present",
+    "cast": "Karl Urban | Jack Quiad | Antony Starr",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMWJlN2U5MzItNjU4My00NTM2LWFjOWUtOWFiNjg3ZTMxZDY1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+  }
+]

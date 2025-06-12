@@ -1,0 +1,112 @@
+[
+  {
+    "rank": 1,
+    "title": "The Shawshank Redemption",
+    "category": "Movie",
+    "rating": 9.3,
+    "genre": "Period Drama | Prison Drama | Drama",
+    "runtime": "2h 22m",
+    "year": "1994",
+    "cast": "Tim Robbins | Morgan Freeman | Bob Gunton",
+    "poster": "https://www.movieposters.com/cdn/shop/files/shawshank_eb84716b-efa9-44dc-a19d-c17924a3f7df_480x.progressive.jpg?v=1709821984"
+  },
+  {
+    "rank": 2,
+    "title": "The Godfather",
+    "category": "Movie",
+    "rating": 9.2,
+    "genre": "Epic | Gangster | Crime | Drama",
+    "runtime": "2h 55m",
+    "year": "1972",
+    "cast": "Marlon Brando | Al Pachino | James Caan",
+    "poster": "https://www.movieposters.com/cdn/shop/products/b5282f72126e4919911509e034a61f66_6ce2486d-e0da-4b7a-9148-722cdde610b8_480x.progressive.jpg?v=1573616025"
+  },
+  {
+    "rank": 3,
+    "title": "Forrest Gump",
+    "category": "Movie",
+    "rating": 8.8,
+    "genre": "Epic | Drama | Romance",
+    "runtime": "2h 22m",
+    "year": "1994",
+    "cast": "Tom Hanks | Robin Wright",
+    "poster": "https://cdn.shopify.com/s/files/1/0057/3728/3618/products/forrest-gump---24x36_500x749.jpg?v=1645558337"
+  },
+  {
+    "rank": 4,
+    "title": "Fight Club",
+    "category": "Movie",
+    "rating": 8.8,
+    "genre": "Psychological Drama | Crime | Drama |Thriller",
+    "runtime": "2h 19m",
+    "year": "1999",
+    "cast": "Brad Pitt | Edward Norton | Meat Loaf",
+    "poster": "https://m.media-amazon.com/images/M/MV5BOTgyOGQ1NDItNGU3Ny00MjU3LTg2YWEtNmEyYjBiMjI1Y2M5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "rank": 5,
+    "title": "Inception",
+    "category": "Movie",
+    "rating": 8.8,
+    "genre": "Action | Epic | Sci-Fi | Action",
+    "runtime": "2h 28m",
+    "year": "2010",
+    "cast": "Leonardo DiCaprio | Joseph Gordon-Levitt | Elliot Page",
+    "poster": "https://cdn.shopify.com/s/files/1/0057/3728/3618/files/inception.mpw.123395_9e0000d1-bc7f-400a-b488-15fa9e60a10c_500x749.jpg?v=1708527589"
+  },
+  {
+    "rank": 6,
+    "title": "Interstellar",
+    "category": "Movie",
+    "rating": 8.7,
+    "genre": "Epic | Sci-Fi | Time Travel | Drama",
+    "runtime": "2h 49m",
+    "year": "2014",
+    "cast": "Matthew NcConaughey | Anne Hathaway | Jessica Chastain",
+    "poster": "https://cdn.shopify.com/s/files/1/0057/3728/3618/files/interstellar_593eaeff_500x749.jpg?v=1698434355"
+  },
+  {
+    "rank": 7,
+    "title": "The Wolf of Wall Street",
+    "category": "Movie",
+    "rating": 8.2,
+    "genre": "Dark Comedy | Epic | Satire | True Crime",
+    "runtime": "3h",
+    "year": "2013",
+    "cast": "Leonardo DiCaprio | Jonah Hill | Margot Robbie",
+    "poster": "https://i.ibb.co.com/Z61QwFFG/Oppenheimer.jpg"
+  },
+  {
+    "rank": 8,
+    "title": "Shutter Island",
+    "category": "Movie",
+    "rating": 8.2,
+    "genre": "Psychological Thriller | Drama | Mystery | Thriller",
+    "runtime": "2h 18m",
+    "year": "2010",
+    "cast": "Leonardo DiCaprio | Emily Mortimer | Mark Ruffalo",
+    "poster": "https://www.movieposters.com/cdn/shop/products/shutter-island_bd6f55ce_480x.progressive.jpg?v=1638902290"
+  },
+  {
+    "rank": 9,
+    "title": "The Exorcist",
+    "category": "Movie",
+    "rating": 8.1,
+    "genre": "Body Horror | Psychological Horror | Tragedy | Horror",
+    "runtime": "2h 2m",
+    "year": "1973",
+    "cast": "Ellen Burstyn | Max Von Sydow | Linda Blair",
+    "poster": "https://cdn.shopify.com/s/files/1/0057/3728/3618/products/51eadd844c8c362c58e30e3545936d1c_08f0d111-9fb3-4cc0-bca5-65446f37ea17_500x749.jpg?v=1573616005"
+  },
+  {
+    "rank": 10,
+    "title": "The Martian",
+    "category": "Movie",
+    "rating": 8.0,
+    "genre": "Sci-Fi | Survival | Adventure | Drama",
+    "runtime": "2h 24m",
+    "year": "2015",
+    "cast": "Matt Damon | Jessica Chastain | Kristen Wiig",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMTc2MTQ3MDA1Nl5BMl5BanBnXkFtZTgwODA3OTI4NjE@._V1_FMjpg_UX1000_.jpg"
+  }
+]
