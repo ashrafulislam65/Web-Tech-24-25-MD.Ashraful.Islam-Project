@@ -7,11 +7,11 @@ echo <<<HTML
       <p class="title1">RevoTV <small class="title2">+</small></p>
     </div>
     <div>
-      <input type="search" placeholder="search RevoTV" name="" id="" />
+      <input class="search" type="search" placeholder="search RevoTV" name="" id="" />
       <button class="btn-nav" onclick="return adv_search()">ASearch</button>
       <button class="btn-nav">Actor Profile</button>
       <button class="btn-nav"><a class="" href="">Watchlist</a></button>
-      <button class="btn-nav"><a href="">Signin</a></button>
+      <button class="btn-nav"><a class="" href="">Signin</a></button>
     </div>
   </nav>
 
