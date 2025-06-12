@@ -25,7 +25,7 @@ echo <<<HTML
     </div>
   </div>
   <div class="footer-bottom">
-    <p>© 2025 RevoTV. All rights reserved.</p>
+    <p>&copy; 2025 RevoTV. All rights reserved.</p>
   </div>
 </footer>
  

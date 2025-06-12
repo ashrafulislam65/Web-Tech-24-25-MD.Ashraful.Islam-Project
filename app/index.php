@@ -46,6 +46,9 @@
         </div>
         <div id="tvseries-rec-container"></div>
       </section>
+      <!-- footer -->
+       <?php include './views/Layouts/footer.php';
+       ?>
       <!-- javaScript -->
     <script src="./index.js"></script>
       
