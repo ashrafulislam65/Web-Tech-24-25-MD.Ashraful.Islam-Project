@@ -11,7 +11,8 @@ echo <<<HTML
       <button class="btn-nav" onclick="return adv_search()">ASearch</button>
       <button class="btn-nav">Actor Profile</button>
       <button class="btn-nav"><a class="" href="">Watchlist</a></button>
-      <button class="btn-nav"><a class="" href="">Signin</a></button>
+      <button class="btn-nav"><a class="" href="views/Forms/login_user_form.php">Signin</a></button>
+
     </div>
   </nav>
 
