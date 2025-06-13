@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../../index.css">
-    
+
 </head>
 
 <body>
@@ -15,7 +16,22 @@
     <!-- user register form -->
 
     <section class="register_body">
-        <form action="../controllers/RegisterController.php" method="POST" class="register-container">
+       
+         <?php
+        session_start();
+        if (isset($_SESSION['register_errors'])) {
+            foreach ($_SESSION['register_errors'] as $error) {
+                echo "<p style='color: red;'>$error</p>";
+            }
+            unset($_SESSION['register_errors']);
+        }
+
+        if (isset($_SESSION['register_success'])) {
+            echo "<p style='color: green;'>{$_SESSION['register_success']}</p>";
+            unset($_SESSION['register_success']);
+        }
+        ?>
+        <form action="../../controllers/register_controller.php" method="POST" class="register-container">
             <h2>Create Account</h2>
 
             <label>First Name:
@@ -43,7 +59,7 @@
             </label>
 
             <button type="submit">Register</button>
-            <p>Already have an account? <a href="login.php">Login</a></p>
+            <p>Already have an account? <a href="./login_user_form.php">Login</a></p>
         </form>
     </section>
     <!-- footer -->
