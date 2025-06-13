@@ -19,7 +19,7 @@
             <input type="email" name="email" placeholder="Email address" required>
             <input type="password" name="password" placeholder="Password" required>
             <button type="submit">Sign In</button>
-            <p>Don't have an account? <a href="register.php">Register</a></p>
+            <p>Don't have an account? <a href="./user_register.php">Register</a></p>
         </form>
     </section>
 
