@@ -127,13 +127,7 @@ function adv_search() {
       .catch((error) => console.error("Error fetching data: ", error));
   }
 
-  document
-    .getElementById("cancel-search-btn")
-    .addEventListener("click", function () {
-      document.getElementById("adv-search").innerHTML = "";
-      document.getElementById("adv-search-result-container").innerHTML = "";
-    });
-}
+ 
 
 // display this weeks top ten
 const top_ten_container = document.getElementById("top-ten-container");
@@ -151,12 +145,16 @@ fetch("./Json/shows.json")
           <p class="info-rating">⭐ ${show.rating}</p>
           <button class="info-btn">Watchlist</button>
           <button class="info-btn">Trailer</button>
+          
         </div>
       `;
       top_ten_container.appendChild(card);
     });
   })
   .catch((error) => console.error("Error loading movies: ", error));
+  //
+  
+
 
 // display movie recomendations
 const movie_rec_container = document.getElementById("movie-rec-container");
@@ -175,12 +173,16 @@ fetch("./Json/top-movies.json")
           <p class="info-rating">⭐ ${show.rating}</p>
           <button class="info-btn">Watchlist</button>
           <button class="info-btn">Trailer</button>
+          
         </div>
       `;
       movie_rec_container.appendChild(card);
     });
   })
   .catch((error) => console.error("Error loading movies: ", error));
+  //
+  
+
 
 // display tvSeries recomendations
 const tvseries_rec_container = document.getElementById(
@@ -201,9 +203,15 @@ fetch("./Json/top-series.json")
           <p class="info-rating">⭐ ${show.rating}</p>
           <button class="info-btn">Watchlist</button>
           <button class="info-btn">Trailer</button>
+          
+          
         </div>
       `;
       tvseries_rec_container.appendChild(card);
     });
   })
   .catch((error) => console.error("Error loading movies: ", error));
+  //
+  
+//modal
+}

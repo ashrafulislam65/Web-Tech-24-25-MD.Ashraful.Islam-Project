@@ -14,7 +14,7 @@
     <?php include '../Layouts/header.php'; ?>
     <h1>User Login</h1>
     <section class="body_login">
-        <form action="login_process.php" method="post" class="login-container">
+        <form action="../../controllers/user_loging_controller.php" method="post" class="login-container">
             <h2>Login</h2>
             <input type="email" name="email" placeholder="Email address" required>
             <input type="password" name="password" placeholder="Password" required>

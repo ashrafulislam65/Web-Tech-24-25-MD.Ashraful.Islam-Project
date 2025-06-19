@@ -13,9 +13,11 @@ fetch('../data/movies.json')
           <p class="rating">⭐ ${movie.rating}</p>
           <button>Watchlist</button>
           <button>Trailer</button>
+          
         </div>
       `;
       container.appendChild(card);
     });
   })
   .catch(error => console.error('Error loading movies:', error));
+  

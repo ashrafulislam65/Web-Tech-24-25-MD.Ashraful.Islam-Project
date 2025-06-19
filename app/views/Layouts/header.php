@@ -9,6 +9,7 @@ echo <<<HTML
     <div>
       <input class="search" type="search" placeholder="search RevoTV" name="" id="" />
       <button class="btn-nav" onclick="return adv_search()">ASearch</button>
+      <button class="btn-nav"><a class="" href="../../index.php">Home</a></button>
       <button class="btn-nav">Actor Profile</button>
       <button class="btn-nav"><a class="" href="">Watchlist</a></button>
       <button class="btn-nav"><a class="" href="views/Forms/login_user_form.php">Signin</a></button>
