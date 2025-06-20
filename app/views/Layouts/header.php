@@ -1,4 +1,10 @@
 <?php
+session_start(); 
+
+$loggedIn = isset($_SESSION['user']);
+$userName = $loggedIn ? $_SESSION['user']['username'] : '';
+
+
 echo <<<HTML
 <header class="header">
   <nav class="nav-bar">
@@ -9,11 +15,23 @@ echo <<<HTML
     <div>
       <input class="search" type="search" placeholder="search RevoTV" name="" id="" />
       <button class="btn-nav" onclick="return adv_search()">ASearch</button>
-      <button class="btn-nav"><a class="" href="../../index.php">Home</a></button>
+      <button class="btn-nav"><a href="../../index.php">Home</a></button>
       <button class="btn-nav">Actor Profile</button>
-      <button class="btn-nav"><a class="" href="">Watchlist</a></button>
-      <button class="btn-nav"><a class="" href="views/Forms/login_user_form.php">Signin</a></button>
+      <button class="btn-nav"><a href="#">Watchlist</a></button>
+HTML;
 
+if ($loggedIn) {
+    echo <<<HTML
+      <button class="btn-nav">Hello, {$userName}</button>
+      <button class="btn-nav"><a href="/web-tech-project/app/views/Forms/logout_user.php">Logout</a></button>
+HTML;
+} else {
+    echo <<<HTML
+      <button class="btn-nav"><a href="/web-tech-project/app/views/Forms/login_user_form.php">Signin</a></button>
+HTML;
+}
+
+echo <<<HTML
     </div>
   </nav>
 
