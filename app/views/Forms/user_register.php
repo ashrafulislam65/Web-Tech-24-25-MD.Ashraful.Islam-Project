@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,18 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../../index.css">
-
 </head>
 
 <body>
     <!-- header -->
     <?php include '../Layouts/header.php'; ?>
-    <!-- user register form -->
 
+    <!-- user register form -->
     <section class="register_body">
+        <?php
        
-         <?php
-        session_start();
+        if (session_status() === PHP_SESSION_NONE) {
+            session_start();
+        }
+
         if (isset($_SESSION['register_errors'])) {
             foreach ($_SESSION['register_errors'] as $error) {
                 echo "<p style='color: red;'>$error</p>";
@@ -31,6 +32,7 @@
             unset($_SESSION['register_success']);
         }
         ?>
+        
         <form action="../../controllers/register_controller.php" method="POST" class="register-container">
             <h2>Create Account</h2>
 
@@ -62,6 +64,7 @@
             <p>Already have an account? <a href="./login_user_form.php">Login</a></p>
         </form>
     </section>
+
     <!-- footer -->
     <?php include '../Layouts/footer.php'; ?>
 
