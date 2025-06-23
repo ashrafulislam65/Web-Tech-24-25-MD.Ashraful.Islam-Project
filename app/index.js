@@ -204,6 +204,10 @@ document.addEventListener("DOMContentLoaded", function () {
   // Details button click handler (global)
   document.addEventListener("click", function (e) {
     if (e.target && e.target.classList.contains("details-btn")) {
+       if (!isLoggedIn) {
+            alert("You must be logged in to view details.");
+            return;
+        }
       const title = e.target.getAttribute("data-title");
 
       Promise.all([

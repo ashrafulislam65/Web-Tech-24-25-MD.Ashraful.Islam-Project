@@ -1,3 +1,7 @@
+<?php 
+session_start(); 
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,6 +11,10 @@
   <title>Movie/Tv Show Database</title>
   <!-- css  -->
   <link rel="stylesheet" href="./index.css" />
+  <script>
+    var isLoggedIn = <?php echo isset($_SESSION['user']) ? 'true' : 'false'; ?>;
+  </script>
+
 </head>
 
 <body>

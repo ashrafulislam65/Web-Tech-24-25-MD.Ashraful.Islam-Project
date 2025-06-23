@@ -1,5 +1,5 @@
 <?php
-session_start(); 
+// session_start(); 
 
 $loggedIn = isset($_SESSION['user']);
 $userName = $loggedIn ? $_SESSION['user']['username'] : '';
