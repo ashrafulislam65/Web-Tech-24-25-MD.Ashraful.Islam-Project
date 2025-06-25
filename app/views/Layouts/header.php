@@ -17,7 +17,8 @@ echo <<<HTML
       <button class="btn-nav" onclick="return adv_search()">ASearch</button>
       <button class="btn-nav"><a href="../../index.php">Home</a></button>
       <button class="btn-nav">Actor Profile</button>
-      <button class="btn-nav"><a href="#">Watchlist</a></button>
+      <button class="btn-nav"><a href="./watchlist.php">Watchlist</a></button>
+      <button class="btn-nav"><a href="/web-tech-project/app/views/Layouts/settings.php">Settings</a></button>
 HTML;
 
 if ($loggedIn) {

@@ -382,3 +382,96 @@
 .close-btn:hover {
   color: #ff0000;
 }
+/* settings */
+/* Settings Container */
+.settings-container {
+    padding: 30px;
+    max-width: 600px;
+    margin: 40px auto;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Headings */
+.settings-container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 26px;
+    color: #333;
+}
+
+/* Form Labels & Inputs */
+.settings-container label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #444;
+}
+
+.settings-container input[type="text"],
+.settings-container input[type="email"],
+.settings-container input[type="url"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: border-color 0.3s ease;
+}
+
+.settings-container input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Button Styling */
+.settings-container button[type="submit"] {
+    margin-top: 20px;
+    padding: 12px 20px;
+    width: 100%;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.settings-container button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Profile Image */
+.settings-container img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #007bff;
+}
+
+/* Feedback Messages */
+.settings-container p {
+    text-align: center;
+    font-size: 14px;
+}
+
+.settings-container p[style*="color: green"] {
+    font-weight: bold;
+    color: green;
+}
+
+.settings-container p[style*="color: red"] {
+    font-weight: bold;
+    color: red;
+}
+
