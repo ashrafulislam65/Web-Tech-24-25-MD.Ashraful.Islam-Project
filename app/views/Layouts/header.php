@@ -16,9 +16,9 @@ echo <<<HTML
       <input class="search" type="search" placeholder="search RevoTV" name="" id="" />
       <button class="btn-nav" onclick="return adv_search()">ASearch</button>
       <button class="btn-nav"><a href="../../index.php">Home</a></button>
-      <button class="btn-nav">Actor Profile</button>
+      <button class="btn-nav"><a href="">Actor Profile</a></button>
       <button class="btn-nav"><a href="./watchlist.php">Watchlist</a></button>
-      <button class="btn-nav"><a href="/web-tech-project/app/views/Layouts/settings.php">Settings</a></button>
+      <button class="btn-nav"><a href="/web-tech-project/app/views/Layouts/settings.php">profile</a></button>
 HTML;
 
 if ($loggedIn) {
