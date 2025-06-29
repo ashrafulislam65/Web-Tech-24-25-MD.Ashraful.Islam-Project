@@ -11,37 +11,32 @@ $user = $_SESSION['user'];
 
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Settings</title>
     <link rel="stylesheet" href="../../index.css">
 </head>
-
 <body>
     <?php include './header.php'; ?>
 
     <div class="settings-container" style="padding: 20px; max-width: 600px; margin: auto;">
-        <h2>User Details</h2>
+        <h2>User Settings</h2>
 
         <!-- Profile Picture Display -->
         <?php if (!empty($user['profile_picture'])): ?>
             <div style="text-align: center; margin-bottom: 20px;">
-                <img src="<?= htmlspecialchars($user['profile_picture']) ?>" alt="Profile Picture"
-                    style="width: 120px; height: 120px; border-radius: 50%;">
+                <img src="<?= htmlspecialchars($user['profile_picture']) ?>" alt="Profile Picture" style="width: 120px; height: 120px; border-radius: 50%;">
             </div>
         <?php endif; ?>
 
         <!-- Success/Error Messages -->
         <?php if (isset($_SESSION['update_success'])): ?>
-            <p style="color: green;"><?php echo $_SESSION['update_success'];
-            unset($_SESSION['update_success']); ?></p>
+            <p style="color: green;"><?php echo $_SESSION['update_success']; unset($_SESSION['update_success']); ?></p>
         <?php elseif (isset($_SESSION['update_errors'])): ?>
             <?php foreach ($_SESSION['update_errors'] as $error): ?>
                 <p style="color: red;"><?php echo $error; ?></p>
-            <?php endforeach;
-            unset($_SESSION['update_errors']); ?>
+            <?php endforeach; unset($_SESSION['update_errors']); ?>
         <?php endif; ?>
 
         <!-- Update Form -->
@@ -67,5 +62,4 @@ $user = $_SESSION['user'];
 
     <?php include './footer.php'; ?>
 </body>
-
 </html>

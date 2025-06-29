@@ -12,7 +12,7 @@
 <body>
     <!--Header  -->
     <?php include '../Layouts/header.php'; ?>
-    
+    <h1>User Login</h1>
     <section class="body_login">
         <form action="../../controllers/user_loging_controller.php" method="post" class="login-container">
             <h2>Login</h2>
@@ -23,7 +23,7 @@
         </form>
     </section>
 
-   
+    hi i am login page
     <!-- footer -->
     <?php include '../Layouts/footer.php'; ?>
 

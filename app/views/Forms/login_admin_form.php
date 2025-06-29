@@ -12,18 +12,17 @@
 <body>
     <!--Header  -->
     <?php include '../Layouts/header.php'; ?>
-    
+    <h1>Admin Login</h1>
     <section class="body_login">
-        <form action="../../controllers/user_loging_controller.php" method="post" class="login-container">
+        <form action="../../controllers/admin_login_controller.php" method="post" class="login-container">
             <h2>Login</h2>
-            <input type="email" name="email" placeholder="Email address" required>
+            <input type="text" name="id" placeholder="Admin Id" required>
             <input type="password" name="password" placeholder="Password" required>
             <button type="submit">Sign In</button>
-            <p>Don't have an account? <a href="./user_register.php">Register</a></p>
         </form>
     </section>
 
-   
+    hi i am login page
     <!-- footer -->
     <?php include '../Layouts/footer.php'; ?>
 

@@ -11,8 +11,7 @@ if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }
 
-function clean_input($conn, $data)
-{
+function clean_input($conn, $data) {
     return mysqli_real_escape_string($conn, trim($data));
 }
 
@@ -32,11 +31,11 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
     if (!empty($errors)) {
         $_SESSION['login_errors'] = $errors;
-        header("Location: /web-tech-project/app/controllers/user_loging_controller.php");
+        header("Location: /web-tech-project/app/views/Forms/user_loging_controller.php");
         exit();
     }
 
-
+    
     $sql = "SELECT * FROM user_info WHERE User_Email = ?";
     $stmt = mysqli_prepare($conn, $sql);
     mysqli_stmt_bind_param($stmt, "s", $email);
@@ -45,7 +44,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
     if ($user = mysqli_fetch_assoc($result)) {
         if (password_verify($password, $user['User_Password'])) {
-
+            
             $_SESSION['user'] = [
                 'id' => $user['User_ID'],
                 'email' => $user['User_Email'],

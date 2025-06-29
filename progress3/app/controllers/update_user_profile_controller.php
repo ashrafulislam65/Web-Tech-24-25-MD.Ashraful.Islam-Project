@@ -18,8 +18,7 @@ if (!$conn) {
 }
 
 // Input sanitization
-function clean_input($conn, $data)
-{
+function clean_input($conn, $data) {
     return mysqli_real_escape_string($conn, trim($data));
 }
 

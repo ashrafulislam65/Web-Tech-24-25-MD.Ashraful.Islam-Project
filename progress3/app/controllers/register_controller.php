@@ -14,8 +14,7 @@ if (!$conn) {
 }
 
 
-function clean_input($conn, $data)
-{
+function clean_input($conn, $data) {
     return mysqli_real_escape_string($conn, trim($data));
 }
 
@@ -28,7 +27,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $password = isset($_POST['password']) ? $_POST['password'] : '';
     $photoURL = isset($_POST['photo_url']) ? clean_input($conn, $_POST['photo_url']) : '';
 
-
+    
     $errors = [];
 
     if (empty($firstName) || empty($lastName) || empty($userName) || empty($email) || empty($password) || empty($photoURL)) {
@@ -44,7 +43,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         $errors[] = "Password must be at least 6 characters.";
     }
 
-
+   
     $checkSql = "SELECT * FROM user_info WHERE User_Email = ? OR User_Name = ?";
     $stmt = mysqli_prepare($conn, $checkSql);
     mysqli_stmt_bind_param($stmt, "ss", $email, $userName);
@@ -60,7 +59,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         exit();
     }
 
-
+    
     $hashedPassword = password_hash($password, PASSWORD_DEFAULT);
 
     // Insert user
