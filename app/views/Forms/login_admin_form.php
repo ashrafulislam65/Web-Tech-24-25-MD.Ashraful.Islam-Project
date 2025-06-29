@@ -22,7 +22,7 @@
         </form>
     </section>
 
-    hi i am login page
+    
     <!-- footer -->
     <?php include '../Layouts/footer.php'; ?>
 
